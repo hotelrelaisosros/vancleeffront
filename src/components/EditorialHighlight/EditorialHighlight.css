@@ -1,0 +1,44 @@
+.editorial-highlight-section {
+    height: 700px;
+}
+
+.editorial-highlight-section .vca-ec-blockquote::before {
+    content: '\201C';
+    font-family: 'Janson Text',Times,'Times New Roman',serif;
+    font-size: 2.1875rem;
+    line-height: 1.28571429;
+    line-height: 1;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+}
+.editorial-highlight-section .vca-ec-blockquote .vca-ec-static-text{
+    font-size: 1.875rem;
+    line-height: 1.33333333;
+    padding: 35px 15px;
+}
+.editorial-highlight-section .vca-ec-blockquote .vca-ec-static-text p {
+    font-family: 'Janson Text',Times,'Times New Roman',serif;
+    font-size: 1.5625rem;
+    line-height: 1.4;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding: 0 15px 35px;
+    width: 100%;
+}
+.editorial-highlight-section .vca-ec-blockquote .vca-ec-static-text::after {
+    content: '\201D';
+    font-family: 'Janson Text',Times,'Times New Roman',serif;
+    font-size: 2.1875rem;
+    line-height: 1.28571429;
+    line-height: 1;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+}
+
+.vca-ec-author{
+    font-size: .8125000000000001rem;
+    line-height: 1.53846154;
+}

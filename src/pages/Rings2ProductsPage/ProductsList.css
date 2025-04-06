@@ -1,0 +1,86 @@
+.non-ring-product-list-page .product-box {
+    cursor: pointer;
+}
+
+.product-details-non-ring .product-title {
+    font-family: 'Janson Text',Times,'Times New Roman',serif;
+    font-size: 1.6252rem;
+    line-height: 1.30769231;
+  }
+
+  .product-details-non-ring .form-select {
+    background-color: #f8f8f8;
+    min-width: 150px;
+    text-align: center;
+  }
+
+  .product-details-non-ring .tabs {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+
+  .product-details-non-ring .tab-item {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+
+  .product-details-non-ring .tab-item .active {
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+  }
+
+  .product-details-non-ring .form-label {
+    font-weight: bold;
+  }
+
+  .product-details-non-ring .price {
+    font-size: 18px;
+  }
+  .product-details-non-ring .button2.disabled {
+    cursor: not-allowed;
+  }
+
+  .veriant-product-section-ring2 {
+    margin: 80px 0 100px;
+  }
+
+  .products-card-title {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .products-card-title h3 {
+    margin-bottom: 60px;
+    font-size: 1.1250000000000002rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Maison Neue','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #222;
+  }
+
+  .products-card-title p {
+    margin-bottom: 40px;
+  }
+  .products-card-title p a {
+    border-bottom: 1px solid #222;
+    color: #222 !important;
+    font-size: .8125000000000001rem;
+    line-height: 1.53846154;
+    text-transform: uppercase;
+    width: auto;
+    font-family: 'Maison Neue','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: normal;
+  }
+  .products-card-footer{
+    margin-top: 120px;
+    text-align: center;
+  }
+  .products-card-footer a {
+    font-size: .8125000000000001rem;
+    line-height: 1.53846154;
+    text-transform: uppercase;
+    color: #757575;
+    letter-spacing: 1.5px;
+  }

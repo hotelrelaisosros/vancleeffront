@@ -1,0 +1,39 @@
+.error-container {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.error-actions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.error-actions .btn {
+    margin-right: 10px;
+}
+
+.page-not-found .full-width-btns{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.page-not-found .full-width-btns .button1{
+    width: 100%;
+    margin-right: 10px;
+    border: 1px solid #082521;
+    padding: 10px 35px;
+    font-size: 13px;
+
+}
+
+.page-not-found .full-width-btns .button2{
+    width: 100%;
+    background-color: #082521;
+    padding: 10px 35px;
+    border: none;
+    color: white;
+    font-size: 13px;
+}

@@ -1,0 +1,77 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.1",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@react-google-maps/api": "^2.20.6",
+    "@reduxjs/toolkit": "^2.3.0",
+    "@stripe/react-stripe-js": "^3.1.1",
+    "@stripe/stripe-js": "^5.5.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.8",
+    "bootstrap": "^5.3.3",
+    "classnames": "^2.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "formik": "^2.4.6",
+    "jwt-decode": "^4.0.0",
+    "libphonenumber-js": "^1.11.19",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.7",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.7",
+    "react-dom": "^18.3.1",
+    "react-dotenv": "^0.1.3",
+    "react-google-autocomplete": "^2.7.4",
+    "react-grid-gallery": "^1.0.1",
+    "react-owl-carousel": "^2.3.3",
+    "react-phone-input-2": "^2.15.1",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^7.0.1",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.10.1",
+    "react-select-country-list": "^2.2.3",
+    "react-spinners": "^0.15.0",
+    "react-tabs": "^6.1.0",
+    "redux-persist": "^6.0.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.6.1"
+  },
+  "scripts": {
+    "start": "react-dotenv && react-scripts start",
+    "build": "react-dotenv && react-scripts build",
+    "test": "react-dotenv && react-scripts test",
+    "eject": "react-dotenv && react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "react-dotenv": {
+    "whitelist": [
+      "API_URL",
+      "STORAGE_URL",
+      "GM_KEY"
+    ]
+  }
+}

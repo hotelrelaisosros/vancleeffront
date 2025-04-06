@@ -1,0 +1,44 @@
+.non-ring-product-list-page .product-box {
+    cursor: pointer;
+}
+
+.product-details-non-ring .product-title {
+    font-family: 'Janson Text',Times,'Times New Roman',serif;
+    font-size: 1.6252rem;
+    line-height: 1.30769231;
+  }
+
+  .product-details-non-ring .form-select {
+    background-color: #f8f8f8;
+    min-width: 150px;
+    text-align: center;
+  }
+
+  .product-details-non-ring .tabs {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+
+  .product-details-non-ring .tab-item {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+
+  .product-details-non-ring .tab-item .active {
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+  }
+
+  .product-details-non-ring .form-label {
+    font-weight: bold;
+  }
+
+  .product-details-non-ring .price {
+    font-size: 18px;
+  }
+  .product-details-non-ring .button2.disabled {
+    cursor: not-allowed;
+  }
+

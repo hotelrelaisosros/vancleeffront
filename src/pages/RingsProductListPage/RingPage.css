@@ -1,0 +1,278 @@
+.radio-container input:checked ~ span, .radio-container input:checked ~ img, .radio-container input:hover ~ span, .radio-container input:hover ~ img {
+    border: 1px solid black;
+}
+
+
+.radio-container input[type=radio], .birthstone-radio-container label input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.list-gemstone-type input:checked ~ img, .list-gemstone-type input:hover ~ img {
+    border: 1px solid black;
+}
+
+.why-us{ padding: 90px 60px; }
+.top-mid-text{ text-align: center; }
+.top-mid-text h6{ font-family: JansonText; font-optical-sizing: auto; font-size: 35px; line-height: 30px ; letter-spacing: 0.25px; font-weight: 500; padding-bottom: 15px; color: #082521; }
+.top-mid-text2{ text-align: center; color: white; }
+.top-mid-text2 h6{ font-family: JansonText; font-optical-sizing: auto; font-size: 35px; line-height: 30px ; letter-spacing: 0.25px; font-weight: 500; padding-bottom: 15px; color: white; }
+.why-us-card-1 p{ margin-top: 10px; font-family: JansonText; font-optical-sizing: auto; font-size: 22px; line-height:26.4px ; letter-spacing: 0.22px; font-weight: 500; color: #082521; }
+.image-holder{ width: 100%; height: 378px; }
+.image-holder img{ width: 100%; height: 100%; object-fit: cover; }
+
+/* section-accordion start */
+.accordion-sxn{ background-color: #082521; margin: 0 auto; padding: 80px 0px;font-family: JansonText; }
+.accordion-sxn .top-mid-text2 p{ font-size: 20px; line-height: 1.3; }
+.accordion-sxn .accordion *{ background-color: #082521; color: white; cursor: pointer; }
+.accordion-sxn .accordion-item { border: none; }
+.accordion-sxn .accordion-header { line-height: normal; border: none; }
+.accordion-sxn .accordion-button { border: none; border-bottom: 1px solid white; }
+.accordion-sxn .accordion-button:after { background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important; }
+.accordion-sxn .accordion-body p { margin-top: 10px; font-family: JansonText; font-optical-sizing: auto; line-height: 26.4px; letter-spacing: 0.22px; }
+/* section-accordion end */
+
+/* section-our-promise start */
+.our-process h6{ font-family: "JansonText"; font-size: 30px; line-height:26.4px ; letter-spacing: 0.22px; font-weight: 500; margin-bottom: 20px; color: #082521; }
+/* section-our-promise end */
+
+/* video1 start */
+.video-background { position: relative; width: 100%; height: 500px; overflow: hidden; }
+.video-background video { position: absolute; min-width: 100%; min-height: 100%; object-fit: cover; z-index: -1; }
+.video-content { position: relative; color: white; z-index: 1; width: 50%; left: 100px; top: 300px; }
+.video-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; z-index: -1; opacity: 0.5; }
+.discover-more-button { margin-top: 10px; color: white; width: 150px; border-color: white; cursor: pointer; }
+/* video1 end */
+
+
+/* Product card box */
+
+.ring-product-card img:hover { border: 1px solid black; cursor: pointer; }
+
+.ring-product-step2 .form-select {
+    background-color: #f8f8f8;
+    min-width: 150px;
+}
+
+.ring-product-step2 .product-options .product-title {
+    font-family: JansonText;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+    padding-bottom: 15px;
+    color: #082521;
+}
+
+.ring-product-step2 .product-options .enum-product-title {
+    font-family: JansonText;
+    color: #082521;
+    margin-bottom: 5px;
+}
+
+.ring-product-step2 .product-options .selectable-div {
+    border: 1px solid #f8f8f8;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0px 10px 0px 0px;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    color: #082521;
+}
+
+.ring-product-step2 .product-options .selectable-div:hover {
+    cursor: pointer;
+}
+
+.ring-product-step2 .product-options .selectable-div.selected {
+    border: 1px solid #082521;
+}
+
+.ring-product-step2 .product-options .select-padding select {
+    margin: auto;
+    display: inline;
+    background-color: #f8f8f8;
+}
+.ring-product-step2 .image-list img{
+    cursor: pointer;
+}
+
+.ring-product-step3 .product-options .engraved_text, .ring-product-step3 .product-options .engraved_text:focus, .ring-product-step3 .product-options .engraved_text:hover, .ring-product-step3 .product-options .engraved_text:active {
+    box-shadow: none;
+    border: none;
+}
+
+.ring-product-step3 .product-options .form-group {
+    margin: 0px 0px 20px 0px;
+}
+
+.ring-product-step3 .product-options .product-title {
+    font-family: JansonText;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+    padding-bottom: 15px;
+    color: #082521;
+}
+
+.ring-product-step3 .product-options .enum-product-title {
+    font-family: JansonText;
+    color: #082521;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.ring-product-step3 .product-options .custom-option {
+    display: flex;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.ring-product-step3 .product-options .custom-option .select-bespoke-stone {
+    margin: 15px;
+}
+
+.ring-product-step3 .product-options .custom-contents a {
+    text-align: right;
+    float: right;
+}
+
+.ring-product-step3 .product-options .custom-option img {
+    margin-right: 10px;
+}
+
+.ring-product-step3 .product-options .custom-option .select-stone-radio label {
+    cursor: pointer;
+}
+
+.ring-product-step3 .product-options .custom-option .select-stone-radio input {
+    appearance: revert;
+    margin-bottom: 10px;
+}
+
+.ring-product-step3 .product-options .hidden-birthstones .birthstone-details {
+    text-align: center;
+}
+.ring-product-step3 .hidden-birthstone .hidden-birthstone-list .birthstone-name {
+    font-size: 13px;
+}
+.ring-product-step3 .hidden-birthstone .birthstone-radio-container label {
+    cursor: pointer;
+}
+.ring-product-step3 .hidden-birthstone .birthstone-radio-container label:hover span, 
+.ring-product-step3 .hidden-birthstone .birthstone-radio-container label:active span, 
+.ring-product-step3 .hidden-birthstone .birthstone-radio-container label:focus span, 
+.ring-product-step3 .hidden-birthstone .birthstone-radio-container label .birthstone-name.selected {
+    border-bottom: 1px solid black;
+}
+
+/* Step4 */
+.ring-product-step4 table {
+    width: 75%;
+    margin-top: 20px;
+    align-items: center;
+    margin: auto;
+    border-collapse: collapse; 
+    border: none;
+}
+
+.ring-product-step4 .table th {
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 15px 8px;
+}
+
+.ring-product-step4 .table tr.accordion-tab td {
+    padding: 15px 8px;
+    cursor: pointer;
+}
+
+.ring-product-step4 .table th {
+    background-color: #f8f8f8;
+}
+
+.accord-deets{
+    padding: 50px 20px;
+}
+.accord-deets p{
+    padding: 5px;
+    font-size: large;
+}
+.accordion-content {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+}
+
+.accordion-tab {
+    font-size: large;
+}
+
+.button-row select, .button-row button {
+    padding: 12px;
+    border: 1px solid #082521; /* Light brown border */
+    cursor: pointer;
+    width: 100%;
+}
+
+.accordion-details ul li {
+    font-size: large;
+    padding: 2px 0px;
+}
+
+.more-info {
+    display: flex;
+    align-items: center;
+    color: #082521;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+    
+.more-info i {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.step4-buttons-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.step4-buttons-bottom button {
+    padding: 10px 35px;
+    background-color: #082521;
+    color: white;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    line-height: 20.8px;
+    font-size: 13px;
+}
+
+.birthstone-radio-container {
+    position: relative;
+}
+
+.birthstone-radio-container .close-btn-birthstone {
+    display: none;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: transparent;
+    color: gray;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.birthstone-radio-container:hover .close-btn-birthstone {
+    display: block;
+}

@@ -1,0 +1,12 @@
+.search-store-input {
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 0px;
+}
+
+.search-store-input-button {
+    height: max-content;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 0px;
+}

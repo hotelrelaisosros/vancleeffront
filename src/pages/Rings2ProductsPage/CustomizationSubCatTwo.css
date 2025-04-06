@@ -1,0 +1,204 @@
+.product-details-2 {
+    max-width: 400px;
+}
+.product-details-2 .ring-page2-transperant-button {
+    width: 100%;
+    padding: 10px 35px;
+    font-size: 13px;
+    border: 1px solid #222;
+    background: transparent;
+    color: #222;
+}
+.product-details-2 .ring-page2-transperant-button:hover {
+    outline: 1px solid #222;
+    outline-offset: 0;
+}
+
+.product-details-2 .sub-title-tagline {
+    font-size: .8125000000000001rem;
+    line-height: 1.53846154;
+    color: #757575;
+    font-family: 'Maison Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.product-details-2 .sub-title-tagline-button {
+    color: #666;
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+    text-underline-offset: 5px;
+}
+.product-details-2 .button-discover-the-stone {
+    color: #666;
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+    text-underline-offset: 5px;
+}
+.product-details-popup {
+    width: 450px;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: white;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    display: none;
+    z-index: 9999;
+    text-align: center;
+}
+
+.product-details-popup-title {
+    padding: 20px 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.product-details-popup-title>h3 {
+    width: auto;
+    font-size: 1.1250000000000002rem;
+    letter-spacing: 1px;
+    margin: 0px auto;
+    text-transform: uppercase;
+    margin-right: auto;
+    font-family: inherit;
+}
+.product-details-popup-title>button {
+    min-height: 50px;
+    width: 40px;
+    min-height: auto;
+    min-width: auto;
+    margin: 0;
+    height: auto;
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    font-family: 'Maison Neue','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.vca-lightbox-content {
+    padding: 0px 60px 30px;
+    max-height: 100vh;
+    left: auto;
+    font-family: 'Maison Neue','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.vca-capital-link {
+    text-transform: uppercase;
+    color: #222;
+    font-size: .8125000000000001rem;
+    line-height: 1.53846154;
+    letter-spacing: 1.5px;
+    flex-basis: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.vca-body-02 {
+    padding-top: 12px;
+    padding-bottom: 20px;
+    border-top: 0;
+}
+
+.product-details-popup-instruction {
+    font-size: .8125000000000001rem;
+    line-height: 1.53846154;
+    color: #757575;
+    letter-spacing: normal;
+}
+
+.section-sizeguide>a {
+    font-size: 12px;
+    text-decoration: underline !important;
+    cursor: pointer;
+    text-underline-offset: 5px;
+}
+.section-sizeguide-button>button {
+    width: 100%;
+    margin-right: 10px;
+    border: 1px solid #082521;
+    padding: 10px 35px;
+    font-size: 13px;
+}
+.section-sizeguide-button>p {
+    font-size: .8125000000000001rem;
+    line-height: 1.53846154;
+    text-transform: uppercase;
+    color: #757575;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px
+}
+
+.vca-pdp-shopping-sticky .vca-custom-select-main {
+    margin: 10px auto;
+    padding: 1px;
+}
+
+.vca-listing-03 {
+    font-family: 'Janson Text',Times,'Times New Roman',serif;
+    font-size: 1.6250000000000002rem;
+    line-height: 1.30769231;
+}
+.vca-body-02 {
+    font-size: .8125000000000001rem;
+    line-height: 1.53846154;
+}
+
+.vca-product-v1 .vca-pdp-name .vca-pdp-material {
+    margin-top: 30px;
+}
+
+.vca-pdp-name {
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+.vca-custom-select {
+    color: #757575;
+}
+
+.vca-custom-select-button, .vca-custom-select-button:hover, .vca-custom-select-button:active, .vca-custom-select-button:focus {
+    font-family: 'Maison Neue','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: .8749999999999999rem;
+    line-height: 1.78571429;
+    color: #757575 !important;
+    padding: 10px 20px;
+    background: transparent !important;
+    border: 1px solid #e6e6e6;
+    text-align: initial;
+    text-transform: inherit;
+    min-height: 50px;
+    border-radius: 0px;
+    width: 100%;
+}
+.vca-custom-select-button::after {
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    margin-top: 10px;
+    float: right;
+}
+
+.vca-custom-select-menu {
+    width: 100%;
+    font-size: .8749999999999999rem;
+    max-height: 230px;
+    overflow: scroll;
+    margin-top: -2px;
+    padding-top: 0px;
+    border-radius: 0px;
+}
+.vca-custom-select-menuitems {
+    color: #7d7d7d;
+    padding: 10px 30px;
+    margin: 0px;
+}
+.vca-custom-select-menuitems:hover {
+    background: rgba(245,245,245,0.85);
+}

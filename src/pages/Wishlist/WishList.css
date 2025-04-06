@@ -1,0 +1,26 @@
+.wishlist-page .link-button {
+    border: none;
+    background: transparent;
+}
+.wishlist-page .link-button:hover {
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+.wishlist-page .cart-page-noproduct button {
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+.list-disc-style li{
+    margin: 3px;
+    font-family: JansonText;
+}
+
+.list-circle-style li {
+    margin: 5px 5px 5px 15px;
+    font-family: JansonText;
+}
+
+.product-summary {
+
+}

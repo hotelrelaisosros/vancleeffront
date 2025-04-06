@@ -1,0 +1,38 @@
+.custom-birthstone-dialog .modal-content {
+    border-radius: 10px;
+    border: 2px solid #bcbcbc;
+    background-color: #fffdf6; /* Light cream background */
+}
+
+.custom-modal-header {
+    margin: 50px 50px 20px 50px;
+    text-align: center;
+}
+
+.custom-modal-header .modal-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.stone-image {
+    height: 100px;
+}
+
+.stone-description {
+    font-size: 1rem;
+    color: #555;
+    margin: 20px 0;
+}
+
+.add-ring-button {
+    background-color: #082521;
+    border: none;
+    color: white;
+    font-size: 13px;
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 0px;
+    margin-bottom: 40px;
+}
+
