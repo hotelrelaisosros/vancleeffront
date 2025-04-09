@@ -203,7 +203,7 @@ const CustomizationSubCatTwo = ({ product, back }) => {
                     ? `Stone: ${
                         selectedStone === "LM" ? "Lab Missionate" : "Diamond"
                       }`
-                    : "Choose Stone Type"}{" "}
+                    : "Stone"}{" "}
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu className="vca-custom-select-menu">
@@ -248,7 +248,7 @@ const CustomizationSubCatTwo = ({ product, back }) => {
                 >
                   {selectedMetal && selectedMetal?.kerate
                     ? `Carat: ${selectedMetal?.kerate}`
-                    : "Choice of Carat"}
+                    : "Carat"}
                 </Dropdown.Toggle>
                 <Dropdown.Menu className="vca-custom-select-menu">
                   {data?.metalKarate?.map((item, i) => (
@@ -288,7 +288,7 @@ const CustomizationSubCatTwo = ({ product, back }) => {
                 >
                   {selectedClarity && selectedClarity?.name
                     ? `Color: ${selectedClarity?.name}`
-                    : "Choose Stone Color"}
+                    : "Ring Color"}
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu className="vca-custom-select-menu">
